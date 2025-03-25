@@ -786,8 +786,10 @@ header .container {
   height: 100vh;
 }
 
-.half-height {
-  height: 50vh;
+@media (min-width: 1001px) {
+  .half-height {
+    height: 50vh;
+  }
 }
 
 .contained {
